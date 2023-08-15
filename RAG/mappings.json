@@ -1,0 +1,10 @@
+{
+    "mappings": {
+
+    "properties": {
+        "vector":{"type": "dense_vector", "dims":1536}, 
+        "text":{"type":"text"},
+        "metadata":{"type": "nested"}
+        }
+    }
+}
